@@ -1,0 +1,19 @@
+{
+  "name": "datacomsub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tc1": "npx nightwatch tests/TC1_accessPayeePage.js --env chrome",
+    "tc2": "npx nightwatch tests/TC2_addNewPayee.js --env chrome",
+    "tc3": "npx nightwatch tests/TC3_assertRequiredPayeeName.js --env chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^102.0.0",
+    "geckodriver": "^3.0.1",
+    "nightwatch": "^2.2.1"
+  }
+}

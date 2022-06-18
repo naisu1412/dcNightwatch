@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="TC1_accessPayeePage"
+    errors="0" failures="1" hostname="" id="" package="TC1_accessPayeePage" skipped="0"
+    tests="1" time="0.003000" timestamp="">
+  
+    <testcase name="Navigate to Payee Page" classname="TC1_accessPayeePage" time="0.003000" assertions="1">  <failure message="browser.navigate is not a function">TypeError: browser.navigate is not a function
+    at DescribeInstance.&lt;anonymous&gt; (C:\DatacomSub\tests\TC1_accessPayeePage.js:7:17)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
