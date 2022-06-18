@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="TC4_assertOrderOfPayee"
+    errors="0" failures="0" hostname="" id="" package="TC4_assertOrderOfPayee" skipped="0"
+    tests="3" time="14.27" timestamp="">
+  
+    <testcase name="Navigate to Payee Page" classname="TC4_assertOrderOfPayee" time="10.67" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Add a new payee" classname="TC4_assertOrderOfPayee" time="3.407" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Validate the payee page order" classname="TC4_assertOrderOfPayee" time="0.1960" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

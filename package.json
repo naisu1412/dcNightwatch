@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "tc1": "npx nightwatch tests/TC1_accessPayeePage.js --env chrome",
     "tc2": "npx nightwatch tests/TC2_addNewPayee.js --env chrome",
-    "tc3": "npx nightwatch tests/TC3_assertRequiredPayeeName.js --env chrome"
+    "tc3": "npx nightwatch tests/TC3_assertRequiredPayeeName.js --env chrome",
+    "tc4": "npx nightwatch tests/TC4_assertOrderOfPayee.js --env chrome",
+    "tc5": "npx nightwatch tests/TC5_transferPayment.js --env chrome"
   },
   "author": "",
   "license": "ISC",

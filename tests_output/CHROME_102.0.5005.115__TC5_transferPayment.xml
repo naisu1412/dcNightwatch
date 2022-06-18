@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="TC5_transferPayment"
+    errors="0" failures="0" hostname="" id="" package="TC5_transferPayment" skipped="0"
+    tests="1" time="11.28" timestamp="">
+  
+    <testcase name="Navigate to payment Page" classname="TC5_transferPayment" time="11.28" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

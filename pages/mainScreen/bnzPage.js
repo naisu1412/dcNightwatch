@@ -1,4 +1,7 @@
+
+
 const pageCommand = {
+
     navigateMainMenu: function (item) {
         var bnz = browser.page.mainScreen.bnzPage();
         var bnzMainScreen = bnz.section.mainScreen;
@@ -7,7 +10,7 @@ const pageCommand = {
         bnzMainScreen.waitForElementPresent('@menuBtn').click('@menuBtn');
         bnz.expect.section('@mainMenu').to.be.visible;
         bnzMainMenu.click(`@${item}`);
-        bnzMainScreen.waitForElementNotPresent('@menuBtn');
+        // bnzMainScreen.waitForElementNotPresent('@menuBtn');
 
         return this;
     }
@@ -22,23 +25,26 @@ module.exports = {
             elements: {
                 menuBtn: {
                     selector: ".MenuButton",
-                }
+                },
+                notification: {
+                    selector: "#notification .inner"
+                },
             }
         },
         mainMenu: {
             selector: ".MainMenu",
             elements: {
                 payOrTransfer: {
-                    selector: ".test"
-                },
-                international: {
-                    selector: ".test"
+                    selector: ".js-main-menu-paytransfer"
                 },
                 payees: {
                     selector: ".js-main-menu-payees"
                 },
                 // ... add other buttons below
             }
+        },
+        transactionPanel: {
+            selector: ".transactions-panel",
         }
     }
 

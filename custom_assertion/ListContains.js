@@ -3,7 +3,7 @@ const util = require('util');
  * Analyzes which specific class
 */
 exports.assertion = function (elem, expected, classModifier = "", msg = "") {
-    let DEFAULT_MSG = 'Testing if attribute %s of <%s> contains "%s".';
+    let DEFAULT_MSG = 'Testing if item %s of <%s> is in "%s".';
 
     this.message = msg || util.format(DEFAULT_MSG, elem['selector'], expected);
 

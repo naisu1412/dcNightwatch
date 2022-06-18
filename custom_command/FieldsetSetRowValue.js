@@ -1,9 +1,3 @@
-// module.exports = {
-//     command: async function (value) {
-//         console.log(`test is ${value}`);
-//     }
-// }
-
 /**
  * Sets value in a specific row in Fieldset
  * 
@@ -24,8 +18,6 @@ module.exports = class CustomCommand {
 
                         this.api.click(cell);
                         let attribs = await this.api.getAttribute('css selector', cell, 'id');
-
-                        console.warn(attribs);
 
                         if (`${attribs}`.includes("Combobox")) {
                             _selectValue(this.api, cell);

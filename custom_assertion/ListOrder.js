@@ -2,17 +2,30 @@ const util = require('util');
 /**
  * Analyzes which specific class
 */
-exports.assertion = function (elem, expected, classModifier = "", msg = "") {
-    let DEFAULT_MSG = 'Testing if attribute %s of <%s> contains "%s".';
+exports.assertion = function (elem, order, classModifier = "", msg = "") {
+    let DEFAULT_MSG = 'Testing if %s is <%s>.';
 
-    this.message = msg || util.format(DEFAULT_MSG, elem['selector'], expected);
+    this.message = msg || util.format(DEFAULT_MSG, elem['selector'], order);
 
     this.expected = function () {
-        return expected;
+        return order;
     };
 
     this.pass = function (value) {
-        return value.includes(expected);
+        let isOrdered = false;
+        let items = value.join('~');
+        let sortedArr = [...value];
+
+        if (order.toLowerCase() === "ascending")
+            isOrdered = sortedArr.sort().join('~') === items;
+
+
+        if (order.toLowerCase() === "descending")
+            isOrdered = sortedArr.sort().reverse().join('~') === items;
+
+
+        console.log(isOrdered, " is the value", items)
+        return isOrdered;
     };
 
     this.value = function (result) {
