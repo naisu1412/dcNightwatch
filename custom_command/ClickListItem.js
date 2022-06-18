@@ -4,11 +4,9 @@ module.exports = class CustomCommand {
         try {
             let item = `${elem['selector']} li ${modifier}`
             this.api.elements("css selector", item, res => {
-
                 res['value'].forEach(e => {
                     this.api.elementIdText(e[Object.keys(e)[0]], text => {
                         if (text.value === value) {
-                            console.log("clicking")
                             this.api.elementIdClick(e[Object.keys(e)[0]]);
                         }
                     })

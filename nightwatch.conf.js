@@ -74,7 +74,7 @@ module.exports = {
 
       webdriver: {
         start_process: true,
-        server_path: '',
+        server_path: '/home/vsts/work/1/s/node_modules/chromedriver/lib/chromedriver/chromedriver',
         cli_args: [
           // --verbose
         ]

@@ -5,11 +5,9 @@
 
   <testsuite name="TC3_assertRequiredPayeeName"
     errors="0" failures="0" hostname="" id="" package="TC3_assertRequiredPayeeName" skipped="0"
-    tests="5" time="7.887" timestamp="">
+    tests="5" time="8.480" timestamp="">
   
-    <testcase name="Navigate to Payee Page" classname="TC3_assertRequiredPayeeName" time="7.233" assertions="5">
-
-    
+    <testcase name="Navigate to Payee Page" classname="TC3_assertRequiredPayeeName" time="7.875" assertions="4">
 
     
 
@@ -20,7 +18,7 @@
     
     </testcase>
   
-    <testcase name="Add a new empty payee" classname="TC3_assertRequiredPayeeName" time="0.2710" assertions="3">
+    <testcase name="Add a new empty payee" classname="TC3_assertRequiredPayeeName" time="0.2630" assertions="3">
 
     
 
@@ -29,17 +27,17 @@
     
     </testcase>
   
-    <testcase name="Assert the errors are present" classname="TC3_assertRequiredPayeeName" time="0.05400" assertions="2">
+    <testcase name="Assert the errors are present" classname="TC3_assertRequiredPayeeName" time="0.04300" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Add the Required Fields" classname="TC3_assertRequiredPayeeName" time="0.3120" assertions="0">
+    <testcase name="Add the Required Fields" classname="TC3_assertRequiredPayeeName" time="0.2810" assertions="0">
     </testcase>
   
-    <testcase name="Assert the errors are not present" classname="TC3_assertRequiredPayeeName" time="0.01700" assertions="1">
+    <testcase name="Assert the errors are not present" classname="TC3_assertRequiredPayeeName" time="0.01800" assertions="1">
 
     
     </testcase>

@@ -5,11 +5,9 @@
 
   <testsuite name="TC2_addNewPayee"
     errors="0" failures="0" hostname="" id="" package="TC2_addNewPayee" skipped="0"
-    tests="4" time="9.639" timestamp="">
+    tests="4" time="10.36" timestamp="">
   
-    <testcase name="Navigate to Payee Page" classname="TC2_addNewPayee" time="6.281" assertions="5">
-
-    
+    <testcase name="Navigate to Payee Page" classname="TC2_addNewPayee" time="6.851" assertions="4">
 
     
 
@@ -20,7 +18,7 @@
     
     </testcase>
   
-    <testcase name="Add a new payee" classname="TC2_addNewPayee" time="1.034" assertions="3">
+    <testcase name="Add a new payee" classname="TC2_addNewPayee" time="1.142" assertions="3">
 
     
 
@@ -29,12 +27,12 @@
     
     </testcase>
   
-    <testcase name="Submit the details" classname="TC2_addNewPayee" time="0.6480" assertions="1">
+    <testcase name="Submit the details" classname="TC2_addNewPayee" time="0.6690" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Validate the result" classname="TC2_addNewPayee" time="1.676" assertions="3">
+    <testcase name="Validate the result" classname="TC2_addNewPayee" time="1.695" assertions="3">
 
     
 

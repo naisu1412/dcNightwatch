@@ -5,11 +5,9 @@
 
   <testsuite name="TC1_accessPayeePage"
     errors="0" failures="0" hostname="" id="" package="TC1_accessPayeePage" skipped="0"
-    tests="1" time="7.033" timestamp="">
+    tests="1" time="7.889" timestamp="">
   
-    <testcase name="Navigate to Payee Page" classname="TC1_accessPayeePage" time="7.033" assertions="5">
-
-    
+    <testcase name="Navigate to Payee Page" classname="TC1_accessPayeePage" time="7.889" assertions="4">
 
     
 

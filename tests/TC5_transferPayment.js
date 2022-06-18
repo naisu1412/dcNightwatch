@@ -16,8 +16,8 @@ describe('Validation of Order in payment List', function () {
         amount: 500
     }
     it('Navigate to payment Page', function (browser) {
-        // get initial values of their money
-        //
+
+        // bnz.click(`h3[title='${Everyday}']`)
 
         bnz.navigate().assert.title('Internet Banking');
         bnz.navigateMainMenu('payOrTransfer');
@@ -41,6 +41,8 @@ describe('Validation of Order in payment List', function () {
 
         paymentMainScreen.waitForElementPresent("@transferBtn").click("@transferBtn");
         bnzMainScreen.assert.attributeContains("@notification", "class", "show");
+
+        browser.pause(2000);
 
 
 

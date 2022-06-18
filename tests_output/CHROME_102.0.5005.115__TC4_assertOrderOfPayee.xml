@@ -5,9 +5,20 @@
 
   <testsuite name="TC4_assertOrderOfPayee"
     errors="0" failures="0" hostname="" id="" package="TC4_assertOrderOfPayee" skipped="0"
-    tests="3" time="14.27" timestamp="">
+    tests="3" time="9.486" timestamp="">
   
-    <testcase name="Navigate to Payee Page" classname="TC4_assertOrderOfPayee" time="10.67" assertions="5">
+    <testcase name="Navigate to Payee Page" classname="TC4_assertOrderOfPayee" time="6.385" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Add a new payee" classname="TC4_assertOrderOfPayee" time="2.871" assertions="5">
 
     
 
@@ -20,20 +31,7 @@
     
     </testcase>
   
-    <testcase name="Add a new payee" classname="TC4_assertOrderOfPayee" time="3.407" assertions="5">
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Validate the payee page order" classname="TC4_assertOrderOfPayee" time="0.1960" assertions="2">
+    <testcase name="Validate the payee page order" classname="TC4_assertOrderOfPayee" time="0.2300" assertions="2">
 
     
 
